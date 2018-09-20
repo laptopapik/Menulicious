@@ -1,4 +1,2 @@
 # Menulicious
-Most Great Bakery shop thamplate 
-
-slkdnfsd
+Most Great Bakery Responsive Thamplate.
