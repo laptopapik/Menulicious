@@ -22,6 +22,17 @@ button.yellow:hover {
     padding: 0px !important;
 
 }
+.text {
+    color: #F6E92D;
+    font-size: 20px;
+    font-weight: bold;
+}
+.content {
+    overflow: hidden;
+    text-decoration: none;
+    margin-top: 15px;
+    height: 555px;
+}
 
 /* custom  header section*/
 section#header{
@@ -103,11 +114,6 @@ button#login{
 
 /* Custom content 1 */
 
-section#content1 {
-    overflow: hidden;
-    text-decoration: none;
-    margin-top: 15px;
-}
 .share-media{
     background-color: #F6E92D;
     margin-right: 70px; 
@@ -123,17 +129,11 @@ section#content1 {
     padding-left: 10px;
 }
 .share-media label a:hover{
-    color: #fff;
+    color: #F8AC54;
     text-decoration: none;
 }
-.promosion{
-   color: #F6E92D;
-   font-size: 20px;
-   font-weight: bold;
-   padding-top: 25px;
-}
 .promosion .p1 {
-    margin-top: 50px;
+    margin-top: 95px;
 }
 .download label button{
     font-size: 20px;
@@ -151,7 +151,24 @@ section#content1 {
     float: right;
     height: 500px;
     width: 500px;
-    margin-right: 90px;
+    position: relative;
+    right: 75px;
+    bottom: 5px;
 }
 
 /* custom content 2 */
+
+.imgcont2 img {
+    float: right;
+    height: 300px;
+    width: 260px;
+    border-left: 5px solid #F6E92D;
+    position: relative;
+    right: 70px;
+}
+.content .content2 {
+    padding-top: 75px;
+}
+.content .content2 .box p{
+    color: #fff !important;
+}
