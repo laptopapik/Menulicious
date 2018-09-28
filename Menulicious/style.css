@@ -160,15 +160,45 @@ button#login{
 
 .imgcont2 img {
     float: right;
-    height: 300px;
-    width: 260px;
+    height: 350px;
+    width: 280px;
     border-left: 5px solid #F6E92D;
     position: relative;
-    right: 70px;
+    left: 180px;
+    top: 40px;
+    z-index: 1;
 }
-.content .content2 {
-    padding-top: 75px;
-}
+
 .content .content2 .box p{
     color: #fff !important;
+}
+.box {
+    background-color: #F6E92D;
+    background: linear-gradient(to bottom, #f6e92d 0%,#f6e92d 0%,#f6e92d 0%,#f6e92d 86%,#ffffff 100%);
+    height: 110%;
+    padding: 35px;
+    padding-left: 190px;
+}
+.box p {
+    font-weight: normal;
+    font-size: 25px;
+}
+button#About {
+    border: 2px solid #fff !important;
+    background-color: #F6E92D !important;
+    font-weight: bold;
+    font-size: 16px;
+    margin:2%  0%  0% 40%;
+    padding: 5px 20px;
+
+}
+
+/* custom content 3 */
+.imgcont3 img {
+    width: 100%;
+    height: 100%;
+}
+.promo{
+    background-color: #F6E92D;
+    margin-right: 5%;
 }
