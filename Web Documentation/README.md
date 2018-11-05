@@ -5,11 +5,11 @@
                                     "make anyone happy"
 
                                     Creator     : @DVCone
-                                    Developer   : @DVCone
+                                    Developer   : @DVCone 
                                     Design      : @DVCone
 
                                     Status      : Under construction.
-
+                                    Lisence     : "under the guidance of @ahmadSyifaa"
 ------------------------------------------------------------------------------------------
 
 #DESCRIPTION
