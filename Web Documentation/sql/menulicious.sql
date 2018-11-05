@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 05, 2018 at 06:19 AM
+-- Generation Time: Nov 05, 2018 at 07:55 AM
 -- Server version: 10.1.34-MariaDB
 -- PHP Version: 7.2.7
 
@@ -21,6 +21,64 @@ SET time_zone = "+00:00";
 --
 -- Database: `menulicious`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `acl_groups`
+--
+
+CREATE TABLE `acl_groups` (
+  `id` int(11) NOT NULL,
+  `name` varchar(50) NOT NULL,
+  `status` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `acl_menus`
+--
+
+CREATE TABLE `acl_menus` (
+  `id` int(11) NOT NULL,
+  `route` varchar(255) NOT NULL,
+  `group` varchar(50) NOT NULL,
+  `shorting` int(11) NOT NULL,
+  `name` varchar(50) NOT NULL,
+  `parent` enum('Y','N') NOT NULL,
+  `child` varchar(50) NOT NULL,
+  `icon` varchar(50) NOT NULL,
+  `status` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `acl_routes`
+--
+
+CREATE TABLE `acl_routes` (
+  `id` int(11) NOT NULL,
+  `group` varchar(50) NOT NULL,
+  `key` varchar(50) NOT NULL,
+  `controller` varchar(50) NOT NULL,
+  `url` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `acl_users`
+--
+
+CREATE TABLE `acl_users` (
+  `id` int(11) NOT NULL,
+  `idgroup` varchar(20) NOT NULL,
+  `username` varchar(20) NOT NULL,
+  `password` varchar(50) NOT NULL,
+  `nota code` varchar(2) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
@@ -261,6 +319,30 @@ CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW 
 --
 
 --
+-- Indexes for table `acl_groups`
+--
+ALTER TABLE `acl_groups`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `acl_menus`
+--
+ALTER TABLE `acl_menus`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `acl_routes`
+--
+ALTER TABLE `acl_routes`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `acl_users`
+--
+ALTER TABLE `acl_users`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `lib_languages`
 --
 ALTER TABLE `lib_languages`
@@ -299,6 +381,30 @@ ALTER TABLE `tb_user`
 --
 -- AUTO_INCREMENT for dumped tables
 --
+
+--
+-- AUTO_INCREMENT for table `acl_groups`
+--
+ALTER TABLE `acl_groups`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `acl_menus`
+--
+ALTER TABLE `acl_menus`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `acl_routes`
+--
+ALTER TABLE `acl_routes`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `acl_users`
+--
+ALTER TABLE `acl_users`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `lib_languages`
