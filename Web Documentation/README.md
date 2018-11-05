@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-<center>
+
                                         MENULICIOUS
 
                                     "make anyone happy"
@@ -9,7 +9,7 @@
                                     Design      : @DVCone
 
                                     Status      : Under construction.
-</center>
+
 ------------------------------------------------------------------------------------------
 
 #DESCRIPTION
@@ -80,11 +80,11 @@ SQL DataBase can be downloaded [Check this Out](https://github.com/DVCone/Menuli
 2. Thameplate Using with AdminLTE.
 
 ------------------------------------------------------------------------------------------
-<center>
+
                                     TO BE CONTINUE . . .
 
                                         "STAY TUNE"
 
 *Any question! please contact @DVCone Via Telegram App.                                       
-</center>
+
 ------------------------------------------------------------------------------------------
