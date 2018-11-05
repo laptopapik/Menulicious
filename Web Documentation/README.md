@@ -23,7 +23,7 @@ products by utilizing the many features contained in it:
 5. product management
 6. Multi languages page
 
-Learn more about Menulicious design [Check this out](https://github.com/DVCone/Menulicious).
+Learn more about Menulicious design [Check this out](https://github.com/DVCone/Menulicious/tree/master/Design).
 
 
 (PROJECT)
@@ -73,7 +73,7 @@ Learn more about Menulicious design [Check this out](https://github.com/DVCone/M
               - English languages. <br>
 
 
-SQL DataBase diatas dapat diunduh
+SQL DataBase can be downloaded [Check this Out](https://github.com/DVCone/Menulicious/tree/master/Web%20Documentation/sql)
 
 2. Thameplate Using with AdminLTE.
 
