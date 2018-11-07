@@ -77,7 +77,10 @@ Learn more about Menulicious design [Check this out](https://github.com/DVCone/M
 
 SQL DataBase can be downloaded [Check this Out](https://github.com/DVCone/Menulicious/tree/master/Web%20Documentation/sql)
 
-2. Thameplate Using with AdminLTE.
+2. For templates to be used are:
+
+- The admin control will use adminLTE [Download Hire](https://adminlte.io/download/AdminLTE-master)
+- the frontend user will use custom according to the design [Download Hire](https://github.com/DVCone/Menulicious/tree/master/Web%20Documentation/Frontend%20Design%20Page)
 
 ------------------------------------------------------------------------------------------
 
