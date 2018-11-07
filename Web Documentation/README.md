@@ -75,7 +75,7 @@ Learn more about Menulicious design [Check this out](https://github.com/DVCone/M
               - English languages. <br>
 
 
-SQL DataBase can be downloaded [Check this Out](https://github.com/DVCone/Menulicious/tree/master/Web%20Documentation/sql)
+SQL DataBase can be downloaded [Download Hire](https://github.com/DVCone/Menulicious/tree/master/Web%20Documentation/sql)
 
 2. For templates to be used are:
 
