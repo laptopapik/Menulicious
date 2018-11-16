@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Oleo+Script|Raleway');
+
+.navbar > a.navbar-brand, a.nav-link {
+    padding: 1rem 0;
+    color: #F6E92D !important;
+}
+
+.navbar-brand {
+    font-family: 'Oleo Script', cursive;
+    font-size: 2.3rem;
+}
+
+.nav-link, .btn-outline-warning {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3rem;
+    margin: 0 .5rem;
+    font-weight: 600;
+}
+
+.collapse {margin-top: 1rem;}
+
+form .btn-outline-warning {color: #EC9C08 !important;}
+
+.content {margin: 2.5rem auto;}
+
+.carousel-inner {height: 28rem;}
+.carousel-item {text-align: center;}
+.carousel-item .halal-local {margin-top: 5rem;}
+.carousel .img {
+    height: 100%;
+}
+.carousel-control-icon,
+.carousel-control-icon {
+    font-size: 3rem;
+    color: #000;
+}
+
+.wrap-img {
+    position: relative;
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem 0;
+    background: #F6E92D;
+    border-radius: 5px;
+}
+
+.wrap-img > a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding-top: 3rem;
+    padding: 0 3rem;
+    color: #fff;
+}
+
+.footer {
+    text-align: center;
+    background: #f5e94b;
+    position: absolute;
+    width: 100%;
+}
+
+.footer p {
+    margin: 0;
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding: 1.1rem 0;
+    color: #fff;
+}
