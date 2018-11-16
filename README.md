@@ -26,7 +26,7 @@ Bread / cake producers can market and distribute their products easily by utiliz
 
 4. ### Menulicious Version :
 
-* [Menulicious V.0.1] (https://github.com/DVCone/Menulicious/Design/Menuliciousv.0.1/01. Home Page.png)
+* [Menulicious V.0.1] (https://github.com/DVCone/Menulicious/)
 
 5.  ### Lisence :
 
@@ -37,7 +37,7 @@ but it should be noted that if you will contribute then you do not allow to chan
 I really hope and thank you for your contribution.
 
 6. ### Example :
-![menulicious](Design/Menulicious.png)
+![menulicious](/Design/Menuliciousv.0.1/01. Home Page.png)
 
 7. ### Important Source You Need :
 
